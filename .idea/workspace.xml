@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b397fb49-d3dd-4aef-83f6-4ed39f1aa55d" name="Changes" comment="firt initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/ProductSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/cartSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/product.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/CartTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/ProductListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/ProductListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740411874338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="firt initial commit">
+      <option name="closed" value="true" />
+      <created>1741282356626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741282356626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
