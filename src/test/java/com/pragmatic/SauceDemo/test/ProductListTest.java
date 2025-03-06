@@ -93,8 +93,8 @@ public class ProductListTest extends BaseTest {
             previousValue = currentValue;
         }
     }
-        @Test
-        public void testFilterPriceHighToLow(){
+    @Test
+    public void testFilterPriceHighToLow(){
             ProductListPage productListPage = new ProductListPage(driver);
             productListPage.selectFilter("hilo");
 
@@ -107,5 +107,6 @@ public class ProductListTest extends BaseTest {
                 previousValue = currentValue;
             }
         }
+
 
 }

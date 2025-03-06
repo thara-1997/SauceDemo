@@ -1,10 +1,8 @@
 package com.pragmatic.SauceDemo.test;
 
-import com.pragmatic.SauceDemo.base.BaseTest;
 import com.pragmatic.SauceDemo.pages.LoginPage;
 import com.pragmatic.SauceDemo.pages.ProductListPage;
 import com.pragmatic.SauceDemo.util.DataDrivenProvider;
-import jdk.internal.org.jline.utils.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;

@@ -5,31 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b397fb49-d3dd-4aef-83f6-4ed39f1aa55d" name="Changes" comment="firt initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/CheckoutOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/FinishMessagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/NavigationAndLogoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/ProductListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/CartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/CheckoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/NavigationAndLogoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/ProductListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/util/BrowserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/util/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/util/DataDrivenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/util/LogManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/ProductSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/cartSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/cart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/product.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/CartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/ProductListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/ProductListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/resources/Features/product.feature" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -50,28 +50,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.CartTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CartTest.testVerifyRemoveCartItemFunctionality.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testLoginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testVerifyLoginWithValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testVerifyOfUsernameAndPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndLogoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ProductListTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Selenium-Pragmetic/SauceDemo/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: cart.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CartTest.executor": "Run",
+    "TestNG.CartTest.testVerifyRemoveCartItemFunctionality.executor": "Run",
+    "TestNG.CheckoutTest.executor": "Run",
+    "TestNG.LoginTest.testLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials.executor": "Run",
+    "TestNG.LoginTest.testVerifyLoginWithValidCredentials.executor": "Run",
+    "TestNG.LoginTest.testVerifyOfUsernameAndPassword.executor": "Run",
+    "TestNG.NavigationAndLogoutTest.executor": "Run",
+    "TestNG.ProductListTest.executor": "Run",
+    "TestNG.ProductListTest.testVerifyProductPage.executor": "Run",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Selenium-Pragmetic/SauceDemo/src/test/java/com/pragmatic/SauceDemo/steps",
+    "onboarding.tips.debug.path": "C:/Selenium-Pragmetic/SauceDemo/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.CartTest.testVerifyRemoveCartItemFunctionality">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/cart.feature" />
+      <option name="GLUE" value="com.pragmatic.SauceDemo.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SauceDemo" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartTest.testVerifyRemoveCartItemFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
@@ -83,42 +108,6 @@
       <option name="PACKAGE_NAME" value="com.pragmatic.SauceDemo.test" />
       <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.CartTest" />
       <option name="METHOD_NAME" value="testVerifyRemoveCartItemFunctionality" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testLoginWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SauceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pragmatic.SauceDemo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pragmatic.SauceDemo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.LoginTest" />
-      <option name="METHOD_NAME" value="testLoginWithInvalidCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testVerifyLoginWithLockedOutUserCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SauceDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pragmatic.SauceDemo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pragmatic.SauceDemo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.LoginTest" />
-      <option name="METHOD_NAME" value="testVerifyLoginWithLockedOutUserCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testVerifyOfUsernameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductListTest.testVerifyProductPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
         <pattern>
@@ -153,9 +142,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pragmatic.SauceDemo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.LoginTest" />
-      <option name="METHOD_NAME" value="testVerifyOfUsernameAndPassword" />
+      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.ProductListTest" />
+      <option name="METHOD_NAME" value="testVerifyProductPage" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pragmatic.SauceDemo.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pragmatic.SauceDemo.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -164,11 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CartTest.testVerifyRemoveCartItemFunctionality" />
-        <item itemvalue="TestNG.LoginTest.testVerifyOfUsernameAndPassword" />
-        <item itemvalue="TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials" />
-        <item itemvalue="TestNG.LoginTest.testLoginWithInvalidCredentials" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.LoginTest.testVerifyLoginWithValidCredentials" />
+        <item itemvalue="TestNG.ProductListTest.testVerifyProductPage" />
+        <item itemvalue="TestNG.CartTest.testVerifyRemoveCartItemFunctionality" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739545884781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="firt initial commit">
+      <option name="closed" value="true" />
+      <created>1740411874338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740411874338</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
