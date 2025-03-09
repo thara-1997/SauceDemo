@@ -6,6 +6,7 @@ import com.pragmatic.SauceDemo.pages.ProductListPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,6 +15,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class CartSteps {
  WebDriver driver;
@@ -50,5 +54,58 @@ public class CartSteps {
         CartPage cartPage = new CartPage(driver);
         Assert.assertEquals(cartPage.getItemDescription(),"carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.",
                 "Item Description is not matching");
+    }
+
+    @When("add the multiple products to the cart")
+    public void addTheMultipleProductsToTheCart() {
+        ProductListPage productListPage = new ProductListPage(driver);
+        productListPage.addSauceLabsBackPack();
+        productListPage.addSauceLabsBikeLight();
+        productListPage.clickCart();
+    }
+
+    @Then("in cart page correct products should need to display")
+    public void inCartPageCorrectProductsShouldNeedToDisplay() {
+        CartPage cartPage = new CartPage(driver);
+        List<String> expectedCartItems = Arrays.asList("Sauce Labs Backpack","Sauce Labs Bike Light");
+        for (int i =0; i<cartPage.getCartItemsCount(); i++){
+            String cartItemName = cartPage.getCartItems().get(i).getText();
+            String expectedProductName = expectedCartItems.get(i);
+            Assert.assertEquals(cartItemName,expectedProductName,"Cart Items are not matching");
+        }
+    }
+
+    @And("click remove button in cart item")
+    public void clickRemoveButtonInCartItem() {
+        CartPage cartPage =  new CartPage(driver);
+        cartPage.clickRemoveSauceLabs();
+    }
+
+    @Then("cart item count should need to decrease")
+    public void cartItemCountShouldNeedToDecrease() {
+        CartPage cartPage =  new CartPage(driver);
+        Assert.assertEquals(cartPage.getCartItemsCount(),1,"Cart Item count is not matching");
+    }
+
+    @And("click the continue shopping button")
+    public void clickTheContinueShoppingButton() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickContinueShopping();
+    }
+
+    @Then("user should need to navigate to the product list page")
+    public void userShouldNeedToNavigateToTheProductListPage() {
+        Assert.assertTrue(driver.getCurrentUrl().startsWith("https://www.saucedemo.com/inventory.html"));
+    }
+
+    @And("click checkout button")
+    public void clickCheckoutButton() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickCheckout();
+    }
+
+    @Then("user should need to navigate to the checkout your information page")
+    public void userShouldNeedToNavigateToTheCheckoutYourInformationPage() {
+        Assert.assertTrue(driver.getCurrentUrl().startsWith("https://www.saucedemo.com/checkout-step-one.html"));
     }
 }

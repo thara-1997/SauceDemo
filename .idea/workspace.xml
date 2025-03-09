@@ -7,6 +7,7 @@
     <list default="true" id="b397fb49-d3dd-4aef-83f6-4ed39f1aa55d" name="Changes" comment="firt initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/cart.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,33 +39,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: cart.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.CartTest.executor": "Run",
-    "TestNG.CartTest.testVerifyRemoveCartItemFunctionality.executor": "Run",
-    "TestNG.CheckoutTest.executor": "Run",
-    "TestNG.LoginTest.testLoginWithInvalidCredentials.executor": "Run",
-    "TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials.executor": "Run",
-    "TestNG.LoginTest.testVerifyLoginWithValidCredentials.executor": "Run",
-    "TestNG.LoginTest.testVerifyOfUsernameAndPassword.executor": "Run",
-    "TestNG.NavigationAndLogoutTest.executor": "Run",
-    "TestNG.ProductListTest.executor": "Run",
-    "TestNG.ProductListTest.testVerifyProductPage.executor": "Run",
-    "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Selenium-Pragmetic/SauceDemo/src/test/java/com/pragmatic/SauceDemo/steps",
-    "onboarding.tips.debug.path": "C:/Selenium-Pragmetic/SauceDemo/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: cart.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.CartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CartTest.testVerifyRemoveCartItemFunctionality.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testLoginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testVerifyLoginWithValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testVerifyOfUsernameAndPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndLogoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListTest.testVerifyProductPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Selenium-Pragmetic/SauceDemo/src/test/java/com/pragmatic/SauceDemo/steps&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Selenium-Pragmetic/SauceDemo/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -198,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741282356626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="firt initial commit">
+      <option name="closed" value="true" />
+      <created>1741282642911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741282642911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
