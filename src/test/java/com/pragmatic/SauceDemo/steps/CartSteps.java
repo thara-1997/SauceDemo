@@ -43,7 +43,7 @@ public class CartSteps {
         loginPage.clickLoginBtn();
     }
 
-    @When("add the product to the cart")
+    @When("user has add the product to the cart")
     public void addTheProductToTheCart() {
         ProductListPage productListPage = new ProductListPage(driver);
         productListPage.addSauceLabsBackPack();
@@ -56,7 +56,7 @@ public class CartSteps {
                 "Item Description is not matching");
     }
 
-    @When("add the multiple products to the cart")
+    @When("user has add the multiple products to the cart")
     public void addTheMultipleProductsToTheCart() {
         ProductListPage productListPage = new ProductListPage(driver);
         productListPage.addSauceLabsBackPack();
@@ -75,7 +75,7 @@ public class CartSteps {
         }
     }
 
-    @And("click remove button in cart item")
+    @And("user has click remove button in cart item")
     public void clickRemoveButtonInCartItem() {
         CartPage cartPage =  new CartPage(driver);
         cartPage.clickRemoveSauceLabs();
@@ -87,7 +87,7 @@ public class CartSteps {
         Assert.assertEquals(cartPage.getCartItemsCount(),1,"Cart Item count is not matching");
     }
 
-    @And("click the continue shopping button")
+    @And("user has click the continue shopping button")
     public void clickTheContinueShoppingButton() {
         CartPage cartPage = new CartPage(driver);
         cartPage.clickContinueShopping();
@@ -98,14 +98,10 @@ public class CartSteps {
         Assert.assertTrue(driver.getCurrentUrl().startsWith("https://www.saucedemo.com/inventory.html"));
     }
 
-    @And("click checkout button")
+    @And("user has click checkout button")
     public void clickCheckoutButton() {
         CartPage cartPage = new CartPage(driver);
         cartPage.clickCheckout();
     }
 
-    @Then("user should need to navigate to the checkout your information page")
-    public void userShouldNeedToNavigateToTheCheckoutYourInformationPage() {
-        Assert.assertTrue(driver.getCurrentUrl().startsWith("https://www.saucedemo.com/checkout-step-one.html"));
-    }
 }

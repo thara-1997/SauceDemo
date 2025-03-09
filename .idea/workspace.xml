@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b397fb49-d3dd-4aef-83f6-4ed39f1aa55d" name="Changes" comment="firt initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CheckoutSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/checkout.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/cart.feature" afterDir="false" />
@@ -207,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741282642911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="firt initial commit">
+      <option name="closed" value="true" />
+      <created>1741512036800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741512036800</updated>
+    </task>
+    <task id="LOCAL-00006" summary="firt initial commit">
+      <option name="closed" value="true" />
+      <created>1741512119936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741512119936</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
