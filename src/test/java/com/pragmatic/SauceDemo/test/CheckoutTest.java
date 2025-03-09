@@ -49,7 +49,7 @@ public class CheckoutTest extends BaseTest {
     }
 
     @Test
-    public void estVerifyOrderSummaryPage(){
+    public void testVerifyOrderSummaryPage(){
         addProducts();
         clickCheckoutBtn();
         enterCheckoutDetails();
