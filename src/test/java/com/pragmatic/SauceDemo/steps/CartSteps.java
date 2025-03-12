@@ -104,4 +104,8 @@ public class CartSteps {
         cartPage.clickCheckout();
     }
 
+    @Then("user should need to navigate to the checkout your information page")
+    public void userShouldNeedToNavigateToTheCheckoutYourInformationPage() {
+        Assert.assertTrue(driver.getCurrentUrl().startsWith("https://www.saucedemo.com/checkout-step-one.html"));
+    }
 }
