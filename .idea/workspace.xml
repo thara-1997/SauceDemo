@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b397fb49-d3dd-4aef-83f6-4ed39f1aa55d" name="Changes" comment="firt initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/NavigationAndLogoutSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/steps/CartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/navigationAndLogout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/navigationAndLogout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pragmatic/SauceDemo/test/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,34 +39,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: cart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.CartTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CartTest.testVerifyRemoveCartItemFunctionality.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testLoginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testVerifyLoginWithValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testVerifyOfUsernameAndPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndLogoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ProductListTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ProductListTest.testVerifyProductPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Selenium-Pragmetic/SauceDemo/src/test/java/com/pragmatic/SauceDemo/steps&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Selenium-Pragmetic/SauceDemo/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: cart.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Selenium-Pragmetic/SauceDemo/testNG.xml.executor": "Run",
+    "TestNG.CartTest.executor": "Run",
+    "TestNG.CartTest.testVerifyRemoveCartItemFunctionality.executor": "Run",
+    "TestNG.CheckoutTest.executor": "Run",
+    "TestNG.LoginTest.testLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.LoginTest.testVerifyLoginWithLockedOutUserCredentials.executor": "Run",
+    "TestNG.LoginTest.testVerifyLoginWithPerformanceGlitchUser.executor": "Run",
+    "TestNG.LoginTest.testVerifyLoginWithValidCredentials.executor": "Run",
+    "TestNG.LoginTest.testVerifyOfUsernameAndPassword.executor": "Run",
+    "TestNG.NavigationAndLogoutTest.executor": "Run",
+    "TestNG.ProductListTest.executor": "Run",
+    "TestNG.ProductListTest.testVerifyProductPage.executor": "Run",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Selenium-Pragmetic/selenium-b1-2025",
+    "onboarding.tips.debug.path": "C:/Selenium-Pragmetic/SauceDemo/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TestRunner">
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Selenium-Pragmetic/SauceDemo/testNG.xml">
     <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/cart.feature" />
@@ -87,7 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartTest.testVerifyRemoveCartItemFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Selenium-Pragmetic/SauceDemo/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testVerifyLoginWithPerformanceGlitchUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +107,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pragmatic.SauceDemo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.CartTest" />
-      <option name="METHOD_NAME" value="testVerifyRemoveCartItemFunctionality" />
+      <option name="MAIN_CLASS_NAME" value="com.pragmatic.SauceDemo.test.LoginTest" />
+      <option name="METHOD_NAME" value="testVerifyLoginWithPerformanceGlitchUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,10 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.C:/Selenium-Pragmetic/SauceDemo/testNG.xml" />
+        <item itemvalue="TestNG.LoginTest.testVerifyLoginWithPerformanceGlitchUser" />
         <item itemvalue="TestNG.LoginTest.testVerifyLoginWithValidCredentials" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.ProductListTest.testVerifyProductPage" />
-        <item itemvalue="TestNG.CartTest.testVerifyRemoveCartItemFunctionality" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741796113252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="firt initial commit">
+      <option name="closed" value="true" />
+      <created>1741797701010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741797701010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

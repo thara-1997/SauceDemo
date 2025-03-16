@@ -52,10 +52,10 @@ public class LoginTest {
     @Test
     public void testVerifyLoginWithPerformanceGlitchUser(){
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.typeUsername("performance_glitch_user").typeUsername("secret_sauce").clickLoginBtn();
+        loginPage.typeUsername("performance_glitch_user").typePassword("secret_sauce").clickLoginBtn();
 
         ProductListPage productListPage = new ProductListPage(driver);
-        Assert.assertEquals(productListPage.getTitle(),"Products", "Product title not matched");
+        Assert.assertEquals(productListPage.getTitle(),"Products","Expected result not met");
     }
 
     @Test
