@@ -36,7 +36,7 @@ public class NavigationAndLogoutTest extends BaseTest {
         navigationAndLogoutPage.burgerMenuClick();
         navigationAndLogoutPage.clickAbout();
         Assert.assertTrue(driver.getCurrentUrl().startsWith("https://saucelabs.com/"));
-        System.out.println("print");
+
     }
 
 }
