@@ -34,7 +34,7 @@ public class CheckoutSteps {
         }
         driver.quit();
     }
-    @Given("user has logged with the valid credentials")
+    @Given("user has logged with e valid credentials")
     public void userHasLoggedWithTeValidCredentials() {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.typeUsername("standard_user");
