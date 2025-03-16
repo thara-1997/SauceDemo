@@ -90,7 +90,7 @@
                 <version>3.1.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testNG.xml</suiteXmlFile>
+                        <suiteXmlFile>cucumber-testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
