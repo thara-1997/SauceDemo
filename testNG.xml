@@ -6,35 +6,35 @@
 
     <test name="Login Tests">
         <classes>
-<!--            <class name="com.pragmatic.SauceDemo.test.LoginTest">-->
-<!--                <methods>-->
-<!--                    <include name="testVerifyLoginWithValidCredentials"/>-->
-<!--                    <include name="testLoginWithInvalidCredentials"/>-->
-<!--                    <include name="testVerifyLoginWithLockedOutUserCredentials"/>-->
-<!--                    <include name="testVerifyLoginWithPerformanceGlitchUser"/>-->
-<!--                    <include name="testVerifyOfUsernameAndPassword"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="com.pragmatic.SauceDemo.test.ProductListTest">-->
-<!--                <methods>-->
-<!--                    <include name="testVerifyProductPage"/>-->
-<!--                    <include name="testClickAddToCartButtonForEachProduct"/>-->
-<!--                    <include name="testRemoveButtonFunctionality"/>-->
-<!--                    <include name="testFilterProductsAtoZ"/>-->
-<!--                    <include name="testFilterProductsZtoA"/>-->
-<!--                    <include name="testFilterPriceLowToHigh"/>-->
-<!--                    <include name="testFilterPriceHighToLow"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="com.pragmatic.SauceDemo.test.CartTest">-->
-<!--                <methods>-->
-<!--                    <include name="testVerifyCorrectProductDisplaying"/>-->
-<!--                    <include name="testVerifyMultipleProductsInCart"/>-->
-<!--                    <include name="testVerifyRemoveCartItemFunctionality"/>-->
-<!--                    <include name="testVerifyContinueShoppingButtonFunctionality"/>-->
-<!--                    <include name="testVerifyCheckoutFunctionality"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="com.pragmatic.SauceDemo.test.LoginTest">
+                <methods>
+                    <include name="testVerifyLoginWithValidCredentials"/>
+                    <include name="testLoginWithInvalidCredentials"/>
+                    <include name="testVerifyLoginWithLockedOutUserCredentials"/>
+                    <include name="testVerifyLoginWithPerformanceGlitchUser"/>
+                    <include name="testVerifyOfUsernameAndPassword"/>
+                </methods>
+            </class>
+            <class name="com.pragmatic.SauceDemo.test.ProductListTest">
+                <methods>
+                    <include name="testVerifyProductPage"/>
+                    <include name="testClickAddToCartButtonForEachProduct"/>
+                    <include name="testRemoveButtonFunctionality"/>
+                    <include name="testFilterProductsAtoZ"/>
+                    <include name="testFilterProductsZtoA"/>
+                    <include name="testFilterPriceLowToHigh"/>
+                    <include name="testFilterPriceHighToLow"/>
+                </methods>
+            </class>
+            <class name="com.pragmatic.SauceDemo.test.CartTest">
+                <methods>
+                    <include name="testVerifyCorrectProductDisplaying"/>
+                    <include name="testVerifyMultipleProductsInCart"/>
+                    <include name="testVerifyRemoveCartItemFunctionality"/>
+                    <include name="testVerifyContinueShoppingButtonFunctionality"/>
+                    <include name="testVerifyCheckoutFunctionality"/>
+                </methods>
+            </class>
             <class name="com.pragmatic.SauceDemo.test.CheckoutTest">
                 <methods>
                     <include name="testVerifyInvalidCheckoutInformationFunctionality"/>
