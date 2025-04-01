@@ -1,5 +1,6 @@
 package com.pragmatic.SauceDemo.test;
 
+import com.aventstack.chaintest.plugins.ChainTestListener;
 import com.pragmatic.SauceDemo.base.BaseTest;
 import com.pragmatic.SauceDemo.pages.*;
 import com.pragmatic.SauceDemo.util.DataDrivenProvider;
@@ -44,8 +45,8 @@ public class CheckoutTest extends BaseTest {
         addProducts();
         clickCheckoutBtn();
         enterCheckoutDetails();
-
         Assert.assertTrue(driver.getCurrentUrl().startsWith("https://www.saucedemo.com/checkout-step-two.html"));
+        ChainTestListener.embed(takeScreenshot(), "image/png");
     }
 
     @Test
@@ -78,7 +79,8 @@ public class CheckoutTest extends BaseTest {
         checkoutOverviewPage.clickFinishBtn();
 
         FinishMessagePage finishMessagePage = new FinishMessagePage(driver);
-        Assert.assertEquals(finishMessagePage.getFinishMsg(), "Thank you for your order!", "Thank you for your order!");
+        Assert.assertEquals(finishMessagePage.getFinishMsg(), "Thank you for your orderrr!", "Thank you for your order!");
+
     }
 
     @Test
